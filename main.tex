@@ -24,12 +24,7 @@
 \usepackage{multicol} % This is so we can have multiple columns of text side-by-side
 \columnsep=50pt % This is the amount of white space between the columns in the poster
 \columnseprule=0.01pt % This is the thickness of the black line between the columns in the poster
-
 \usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
-
-\usepackage{times} % Use the times font
-
-
 \usepackage{graphicx} % Required for including images
 \graphicspath{{figures/}} % Location of the graphics files
 \usepackage{booktabs} % Top and bottom rules for table
@@ -56,7 +51,8 @@
 \end{minipage}
 %
 \begin{minipage}[b]{0.4\linewidth}
-\includegraphics[width=15cm]{emsnew.PNG}\\
+\includegraphics[height=5cm]{logo_semat.pdf}
+\includegraphics[height=5cm,trim=5cm 5cm 0cm 5cm,clip]{logo_goiania.png}
 \end{minipage}
 
 \vspace{.5cm} % A bit of extra whitespace between the header and poster content
